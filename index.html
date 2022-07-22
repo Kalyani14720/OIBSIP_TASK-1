@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0" />
+    <title>VIIT HACKHATHON</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,100;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+      integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="" index.html><img src="images/logo.png" /> </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">PRIZES</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>VIIT's very first Hackhathon</h1>
+        <p1>
+          Lets witness the coolest Hackhathon in our college,<br />
+          brought to you by SEC and GFG </p1
+        ><br />
+        <a href="" class="hero-btn">Contact us to know more</a>
+      </div>
+    </section>
+
+    <section class="about">
+      <h1>About</h1>
+      <p3
+        >This is first Hackhathon of VIIT,you have choose a problem statement
+        from given statements and come up with the desired solution-<br />1.Environment
+        issues<br />2.Gender issues<br />3.Technology issue</p3
+      >
+      <div class="about-row">
+        <div class="about-col">
+          <h2>First Round</h2>
+          <p>Idea selections and presentation of the soltuion using PPT</p>
+        </div>
+        <div class="about-col">
+          <h2>Second Round</h2>
+          <p>
+            Submission of the solution via gform. Preapring git repo for the
+            same.
+          </p>
+        </div>
+        <div class="about-col">
+          <h2>Final Round</h2>
+          <p>Presentationof the solution, explaning the implementation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="FAQ">
+      <h1>prizes to win</h1>
+      <p>Exciting rewards are waiting for you</p>
+      <div class="columns">
+        <div class="rows">
+          <img src="images/bag.jpg" />
+          <div class="layer">
+            <h3>Laptop Bag</h3>
+          </div>
+        </div>
+        <div class="rows">
+          <img src="images/tshirt.jpg" />
+          <div class="layer">
+            <h3>Tshirt</h3>
+          </div>
+        </div>
+        <div class="rows">
+          <img src="images/mug.jpg" />
+          <div class="layer">
+            <h3>Mug</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="prizes">
+      <h1>FAQ</h1>
+      <p>Frequently Asked Questions</p>
+      <div class="columns">
+        <div class="row">
+          <h2>No. of members in a team</h2>
+          <p>
+            Minimum 2 and maximum 5 members are allowed. All members should be
+            from VIIT. Students from any branch is allowed
+          </p>
+        </div>
+        <div class="row">
+          <h2>Duration of the HACKHATHON</h2>
+          <p>
+            First round - 10 july to 25 july<br />Second round- 1 August to 25
+            August<br />Final round- 30 and 31 August
+          </p>
+        </div>
+        <div class="row">
+          <h2>Selection Process</h2>
+          <p>
+            First Round- Idea presentation<br />Second Round- Implementation of
+            idea<br />Presentation of implementation
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h1>Contact Us</h1>
+      <p>Feel free to ask any query</p>
+      <div class="contact-row">
+        <div class="contact-col">
+          <img src="images/sec.jpg" />
+          <div>
+            <p>Email- sec@viit.ac.in<br />Phone no- 7657839302</p>
+            <h>SEC VIIT</h>
+          </div>
+        </div>
+        <div class="contact-col">
+          <img src="images/gfg.jpg" />
+          <div>
+            <p>Email- gfg@viit.ac.in<br />Phone no- 7657839302</p>
+            <h>GFG VIIT</h>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="end">
+      <h2>
+        Hackathons are where your crazy idea becomes reality<br />What are you
+        waiting for, Participate in VIIT's first Hackhathon
+      </h2>
+    </section>
+
+    <section class="footer">
+      <h4>Made by students for the students</h4>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
